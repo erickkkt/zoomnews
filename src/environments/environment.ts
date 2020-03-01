@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase:{
+    apiKey: "AIzaSyC8WRveelCgZMA0Xd4CvfQy6OVZoYapUwQ",
+    authDomain: "rapid-news-bc08e.firebaseapp.com",
+    databaseURL: "https://rapid-news-bc08e.firebaseio.com",
+    projectId: "rapid-news-bc08e",
+    storageBucket: "rapid-news-bc08e.appspot.com",
+    messagingSenderId: "481170128963",
+    appId: "1:481170128963:web:10f188ca869258513394f6",
+    measurementId: "G-DRFP6CV3HE"
+  }
 };
 
 /*
