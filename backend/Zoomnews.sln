@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29021.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationCore", "ApplicationCore", "{0A9996AB-7E04-4BFD-89DD-A3D01749EF2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F2E0FCBB-F6C4-4671-A09B-A875C201D500}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{3720454D-6C4E-4B60-9CF3-119226CB1D42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoomnews.Services", "Zoomnews.Services\Zoomnews.Services.csproj", "{4BD403F4-E5B7-4235-A7F3-262642D8E071}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoomnews.Database", "Zoomnews.Database\Zoomnews.Database.csproj", "{C6BAE26F-01DF-4857-8806-CDD9CB73E897}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoomnews.Common", "Zoomnews.Common\Zoomnews.Common.csproj", "{6533CD3A-4FC2-4FB9-BC01-5EECA140B5BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoomnews.Api", "Zoomnews.Api\Zoomnews.Api.csproj", "{8652D9E1-0E36-44A4-997C-0B4E7496D8DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BD403F4-E5B7-4235-A7F3-262642D8E071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD403F4-E5B7-4235-A7F3-262642D8E071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD403F4-E5B7-4235-A7F3-262642D8E071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD403F4-E5B7-4235-A7F3-262642D8E071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6BAE26F-01DF-4857-8806-CDD9CB73E897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BAE26F-01DF-4857-8806-CDD9CB73E897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BAE26F-01DF-4857-8806-CDD9CB73E897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BAE26F-01DF-4857-8806-CDD9CB73E897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6533CD3A-4FC2-4FB9-BC01-5EECA140B5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6533CD3A-4FC2-4FB9-BC01-5EECA140B5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6533CD3A-4FC2-4FB9-BC01-5EECA140B5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6533CD3A-4FC2-4FB9-BC01-5EECA140B5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8652D9E1-0E36-44A4-997C-0B4E7496D8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8652D9E1-0E36-44A4-997C-0B4E7496D8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8652D9E1-0E36-44A4-997C-0B4E7496D8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8652D9E1-0E36-44A4-997C-0B4E7496D8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BD403F4-E5B7-4235-A7F3-262642D8E071} = {0A9996AB-7E04-4BFD-89DD-A3D01749EF2A}
+		{C6BAE26F-01DF-4857-8806-CDD9CB73E897} = {F2E0FCBB-F6C4-4671-A09B-A875C201D500}
+		{6533CD3A-4FC2-4FB9-BC01-5EECA140B5BA} = {F2E0FCBB-F6C4-4671-A09B-A875C201D500}
+		{8652D9E1-0E36-44A4-997C-0B4E7496D8DA} = {3720454D-6C4E-4B60-9CF3-119226CB1D42}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1FDF932-2299-4237-B4D1-41F1654E7A4A}
+	EndGlobalSection
+EndGlobal

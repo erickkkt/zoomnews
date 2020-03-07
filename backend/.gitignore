@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+.vs/*
+
+/Zoomnews.Api/bin/*
+/Zoomnews.Api/obj/*
+/Zoomnews.Api/Logs/*
+/Zoomnews.Common/bin/*
+/Zoomnews.Common/obj/*
+/Zoomnews.Database/bin/*
+/Zoomnews.Database/obj/*
+/Zoomnews.Services/bin/*
+/Zoomnews.Services/obj/*

@@ -1,0 +1,8 @@
+﻿1/ Opem Package Manager Console
+2/ Select Infrastructure\Zoomnews.Database project
+3/ Copy appsettings.json to Debug/bin/ folder
+4/ Open console
+5/ Run command: Add-Migration ZoomnewsDbContextMigration -Context ZoomnewsDbContext
+6/ Run command: Add-Migration ZoomnewsDbIdentityContextMigration -Context ApplicationDbContext
+7/ Run command: Update-Database -Context ZoomnewsDbContext
+8/ Run command: Update-Database -Context ApplicationDbContext
