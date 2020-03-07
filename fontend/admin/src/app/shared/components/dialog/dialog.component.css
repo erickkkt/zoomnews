@@ -1,0 +1,44 @@
+.mat-dialog-container{
+    overflow: hidden!important;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 420px) {
+    .mat-dialog-container {
+      max-width: 90vw !important;
+    }
+  }
+  
+  .admin-dialog{
+    position: relative;   
+  }
+
+  .admin-dialog .dialog-close{
+    background: none!important;
+    border: none;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+  }
+  .admin-dialog .title{
+    margin-top: 0;
+  }
+       
+  .admin-dialog .mat-dialog-title{
+    font-size: 1.5em;
+    margin: 0 0 10px;
+  }
+
+  .admin-dialog .mat-dialog-content{
+    padding: 10px 24px;  
+  }
+
+  
+  .admin-dialog .mat-dialog-content .message{
+    font-size: 1em;
+  }
+
+  .admin-dialog .mat-dialog-actions{
+    text-align: right;
+    display: block;
+  }

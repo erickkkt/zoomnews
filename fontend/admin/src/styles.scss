@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+//@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import './zoomnews';
+
+//@import url('//fonts.googleapis.com/css?family=Roboto:300,400,500');
+// @import url('//fonts.googleapis.com/icon?family=Material+Icons');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.product-grid {
+  mat-button-toggle {
+    & > button {
+      height: 100%;
+    }
+  }
+}
+
+app-navigation {
+  router-outlet + * {
+    flex: 1;
+  }
+}
+
+.invisible-form-field .mat-form-field-underline {
+  background-color: transparent;
+}
+
+.invisible-form-field .mat-form-field-infix {
+  width: auto;
+}
+
+.error-only-form-field .mat-form-field-flex {
+  display: none;
+}
+
+input[readonly] {
+  color: rgba(0,0,0,.38);
+}
+
+.mat-accordion > .mat-expansion-panel-spacing:last-child {
+  margin-bottom: 15px !important;
+}
+
+.mb-expansion {
+  margin-bottom: 15px;
+}
+
+.btn-confirm {
+  left: 6%;
+}
+
+.btn-table-row {
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  min-height: 36px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.colour-success {
+  color: #28a745;
+}
+
+.colour-danger {
+  color: #bd2130;
+}

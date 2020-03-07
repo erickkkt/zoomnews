@@ -1,0 +1,15 @@
+<div class="admin-dialog">
+    <h2 class="title">{{title}}</h2>
+    <button type="button" class="dialog-close" (click)="onCloseDialog()" *ngIf="!isConfirmDialog">
+      <mat-icon svgIcon="close"></mat-icon>
+    </button>
+    <mat-dialog-content>
+      <p class="message">{{message}}</p>
+    </mat-dialog-content>
+    <mat-dialog-actions class="justify-items-end button-row">
+      <button mat-button mat-raised-button color="primary" (click)="onPrimaryButton()">{{primaryButtons}}</button>
+      <button *ngIf="secondaryButtons!=null" mat-button mat-raised-button color="secondary" (click)="onSecondaryButton()">{{secondaryButtons}}</button>
+    </mat-dialog-actions>
+  </div>
+  
+  

@@ -1,0 +1,25 @@
+<mat-toolbar class="mat-elevation-z6" fxLayout="row" fxLayoutAlign="start center" color="primary" >
+  <button mat-button disableRipple="true" (click)="onMenuButtonClick()">
+    <mat-icon svgIcon="menu"></mat-icon>
+  </button>
+
+  <mat-nav-list fxLayout="row" fxLayoutAlign="start center" class="horizontal">
+    <a mat-list-item [routerLink]="['/app']">
+      <img src="../../../../assets/img/Home_logo_white.png" height="40" />
+    </a>
+  </mat-nav-list>
+  
+  <span>Admin</span>
+  <div fxFlex="400" fxLayoutAlign="space-around start" class="search-header" *ngIf="displaySearch">
+    <!--<app-search class="main-search-control"></app-search>-->
+  </div>
+  <span class="welcome-message">{{userName}}</span>
+  <mat-nav-list fxLayout="row" fxLayoutAlign="start center" class="horizontal">
+    <a mat-list-item matTooltip="Not Implemented" appNotImplemented>
+      <mat-icon svgIcon="account-circle"></mat-icon>
+    </a>
+    <a mat-list-item matTooltip="Not Implemented" appNotImplemented>
+      <mat-icon svgIcon="bell"></mat-icon>
+    </a>
+  </mat-nav-list>
+</mat-toolbar>

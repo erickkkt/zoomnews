@@ -1,0 +1,43 @@
+@import '../node_modules/@angular/material/theming';
+
+@include mat-core();
+
+$mat-admin: (
+  50: #ebf1fd,
+  100: #ccdbf9,
+  200: #aac4f6,
+  300: #88acf2,
+  400: #6f9aef,
+  500: #5588ec,
+  600: #4e80ea,
+  700: #4475e7,
+  800: #3b6be4,
+  900: #2a58df,
+  A100: #ffffff,
+  A200: #ebefff,
+  A400: #b8c8ff,
+  A700: #9eb5ff,
+  contrast: (
+    50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: white,
+    600: white,
+    700: white,
+    800: $white-87-opacity,
+    900: $white-87-opacity,
+    A100: $black-87-opacity,
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);
+
+$admin-primary: mat-palette($mat-admin);
+$admin-accent: mat-palette($mat-light-blue, A200, A100, A400);
+$admin-warn: mat-palette($mat-red);
+$admin-theme: mat-light-theme($admin-primary, $admin-accent, $admin-warn);
+
+@include angular-material-theme($admin-theme);
